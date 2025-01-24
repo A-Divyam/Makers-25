@@ -28,7 +28,7 @@ function Signup() {
       );
     }
     try {
-      const url = `https://makers-25.vercel.app/auth/signup`;
+      const url = `https://makers-25.onrender.com/auth/signup`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
