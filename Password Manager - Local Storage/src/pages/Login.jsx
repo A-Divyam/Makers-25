@@ -42,7 +42,7 @@ function Login() {
                 localStorage.setItem('UserName', name);
                 localStorage.setItem('UserEnrollmentNumber', enrollmentNo);
                 setTimeout(() => {
-                    window.location.reload()
+                    navigate('/home');
                 }, 2000)
             } else if (error) {
                 const details = error?.details[0].message;
