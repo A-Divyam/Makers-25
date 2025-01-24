@@ -26,7 +26,7 @@ function Login() {
             return handleError('Enrollment number and Password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/login`;
+            const url = `https://makers-25.vercel.app/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
