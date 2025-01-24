@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #001b38;
+    color: white;
+}
+
+.logo{
+    font-family: "Roboto", cursive;
+    font-size: 3vh;
+    font-weight: 900;
+}
+
+.Navbar .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.Navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    margin-left: 2vw;
+    border: 0.4vh solid white;
+    border-radius: 1.2vh;
+    transition: ease-in-out 0.3s;
+}
+
+.Navbar a:hover{
+    background-color: #51d9fb;
+    color: #050034;
+}
+
+/* .comp-container{
+    background-size: fit;
+} */
